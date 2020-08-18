@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-auto align-self-center">
-          <h5 class="logo mb-0"><router-link to="/">DBS.IO</router-link></h5>
+          <h5 class="logo mb-0"><router-link to="/">VueBG</router-link></h5>
         </div>
         <div class="col">
           <div class="main-navigation float-right">
