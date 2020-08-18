@@ -11,3 +11,39 @@
 
 *
 */
+
+.main-navigation {
+  display: block;
+  position: relative;
+  ul {
+    margin: 0;
+    position: relative;
+    display: block;
+    padding-left: 0;
+    li {
+      list-style-type: none;
+      float: left;
+      a {
+        padding: 1.25rem 1.25rem;
+        display: block;
+        color: inherit;
+        font-size: 14px;
+        text-decoration: none;
+        position: relative;
+        font-weight: 600;
+        &:hover {
+          color: $red-ryb;
+        }
+      }
+      &:hover {
+        &:after {
+          content: "";
+          display: block;
+          background-color: $red-ryb;
+          height: 2px;
+          margin-top:-2px;
+        }
+      }
+    }
+  }
+}

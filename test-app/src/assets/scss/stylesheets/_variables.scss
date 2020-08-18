@@ -43,7 +43,21 @@
 // $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 // $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 $white:					         #ffffff;
-$black:                  #000000;
+$black:                  #000103;
+
+$red-ryb:                #ff312e;
+$jet:                    #333138;
+$cultured:               #EFEFEF;
+$baby-powder:            #FFFFFA;
+
+$primary:       #2195F2 !default;
+$secondary:     #202733 !default;
+$success:       #4CAF50 !default;
+$info:          #3AB9CF !default;
+$warning:       #FFAD33 !default;
+$danger:        #F34336 !default;
+$light:         #F2F4F7 !default;
+$dark:          #202733 !default;
 // $brand-primary:          #38A0F4 !default; // #337ab7
 // $brand-success:          #5cb85c !default;
 // $brand-info:             #5bc0de !default;

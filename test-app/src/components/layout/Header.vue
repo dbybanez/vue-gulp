@@ -1,12 +1,22 @@
 <template>
-  <header class="header">
-    <h1>Why</h1>
-    <div id="nav">
-      <router-link to="/"><test/>Home</router-link> | 
-      <router-link to="/about">About</router-link>
+  <div class="site-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-auto align-self-center">
+          <h5 class="logo mb-0"><router-link to="/">DBS.IO</router-link></h5>
+        </div>
+        <div class="col">
+          <div class="main-navigation float-right">
+            <ul>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/about">About</router-link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>What is this</div>
-  </header>
+  </div>
+  
 </template>
 
 <script>

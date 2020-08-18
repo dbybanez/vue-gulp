@@ -11,3 +11,14 @@
 
 *
 */
+
+.logo {
+  a {
+    padding: 0.75rem;
+    color: $black;
+    &:hover {
+      color: $red-ryb;
+      text-decoration: none;
+    }
+  }
+}
