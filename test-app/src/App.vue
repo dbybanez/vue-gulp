@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <div class="site-contents">
+    <div class="site-contents py-3">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -10,16 +10,19 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 
 export default {
   name: "app",
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
